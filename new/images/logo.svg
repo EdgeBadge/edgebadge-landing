@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="178px" height="22px" viewBox="0 0 178 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>EDGEBADGE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Tablet-Portrait" sketch:type="MSArtboardGroup" transform="translate(-296.000000, -636.000000)" font-weight="normal" font-family="Montserrat" font-size="28" fill="#2C5A73">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(294.000000, 630.000000)">
+                <text id="EDGEBADGE" sketch:type="MSTextLayer">
+                    <tspan x="0" y="27">EDGE</tspan>
+                    <tspan x="79.716" y="27" font-weight="bold">BADGE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

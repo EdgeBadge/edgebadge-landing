@@ -1,0 +1,84 @@
+body{font-family: "Nunito"; font-weight: 200; font-size: 16px; color: #aaa;}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  margin-left: -15px;
+}
+
+body > .container-full > .row{
+	min-height: 400px;
+	padding-top: 70px;
+	padding-bottom: 80px;
+	padding-left: 30px;
+	line-height: 1.5;
+}
+
+.row.problem{
+	background-color: #39c0ba;
+	color: #fff;
+}
+.row.loesung{
+	background-color: #51D477;
+	color: #fff;
+}
+.row.contact{
+	min-height: 100px;
+	background-color: #f4f4f4;
+}
+.row.social{
+	padding-top: 35px;
+	padding-bottom: 10px;
+}
+
+.btn-default{
+	background-color: #51D477;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+h4{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 1.4px;
+	margin-bottom: 30px;
+}
+.contact h2{
+	color: #666;
+	font-family: "Nunito";
+	font-size: 40px;
+}
+.features h2{
+	color: #39c0ba;
+	font-family: "Nunito";
+	font-weight: 700;
+	font-size: 26px;
+}
+
+a{
+	color: #39c0ba;
+}
+
+.lead-promo{
+	font-family: "Noto Sans";
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.footer-small-text{
+	padding-top: 20px;
+	color: #c5c5c5;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-size: 13px;
+}
+
+@media(max-width: 786px){
+	body{
+		font-size: 14px;
+	}
+}
