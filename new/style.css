@@ -12,13 +12,25 @@ body > .container-full > .row{
 	padding-left: 30px;
 	line-height: 1.5;
 }
-
+.row.header{
+	background-image: url(images/badge.svg);
+	background-size: 200px;
+	background-attachment: fixed;
+	/*background-position: 5px -15px;*/
+}
 .row.problem{
 	background-color: #39c0ba;
 	color: #fff;
 }
 .row.loesung{
 	background-color: #51D477;
+	color: #fff;
+}
+.row.features{
+
+}
+.row.mission{
+	background-color: #049372;
 	color: #fff;
 }
 .row.contact{
@@ -47,6 +59,11 @@ h4{
 	letter-spacing: 1.4px;
 	margin-bottom: 30px;
 }
+h3{
+	font-family: "Ubuntu";
+	font-weight: 500;
+	color: #39c0ba;
+}
 .contact h2{
 	color: #666;
 	font-family: "Nunito";
@@ -63,10 +80,18 @@ a{
 	color: #39c0ba;
 }
 
+.smile{
+	padding-top: 110px;
+}
+.feature-img{
+	padding-bottom: 20px;
+}
+
 .lead-promo{
 	font-family: "Noto Sans";
 	margin-top: 50px;
-	font-size: 18px;
+	font-size: 19px;
+	color: #888;
 }
 
 .footer-small-text{
