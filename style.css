@@ -42,7 +42,9 @@ body > .container-full > .row{
 	padding-top: 35px;
 	padding-bottom: 10px;
 }
-
+.btn-default:visited{
+	background-color: #00B16A;
+}
 .btn-default{
 	background-color: #00B16A;
 	color: #fff;
@@ -86,6 +88,7 @@ a{
 	padding-top: 110px;
 }
 .feature-img{
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 

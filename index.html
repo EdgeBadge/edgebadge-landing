@@ -11,18 +11,36 @@
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 </head>
 <body>
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 	<div class="container-full">
 		<div class="row header">
 		<div class="container">
 			<img src="images/logo.svg" width="300" class="center-block">
 			<div class="lead-promo text-center">Ein Beurteilungssystem, dass Spaß macht und motiviert.</div>
 			<div class="text-center" style="margin-top: 2%">
-				<a href="#" class="btn btn-lg btn-default">Erfahre mehr</a>
+				<a href="#start" class="btn btn-lg btn-default">Erfahre mehr</a>
 			</div>
 		</div>
 		</div>
+		<a name="start"></a>
 		<div class="row problem">
 			<div class="container">
 				<div class="col-md-6">
@@ -31,8 +49,7 @@
 					Lernen für Tests & Schularbeiten erfolgt ohne Motivation. Belohnung für Zusatzleistungen? Fehlanzeige.
 					</div>
 					Wissenensvermittlung ist heutzutage bidirektional und interaktiv, punktuelle Leistungsfeststellungen sind dafür nicht optimal und der Lernweg geht fast komplett verloren. Abschlüsse und Noten sind derzeit das einzige gültige Leistungskriterium, obwohl sie nur einen Bruchteil der eigentlichen Information darstellen.
-					Das Bildungssystem stammt aus einer Zeit in der es weder das Internet, noch dessen Grundsätze, wie Offenheit, Gleichbehandlung und Transparenz, gab und ist deshalb nicht mehr zeitgemäß. Wir möchten eben diese Grundsätze zum Vorteil der SchülerInnen nutzen.
-					<!-- Besser wäre es, den kompletten „Lernpfad“ mit hoher Detailgenauigkeit aufzuzeichnen, das Erlernte in den passenden Kontext zu setzten und all diese Daten an einem Ort verfügbar zu machen. -->
+					Besser wäre es, den kompletten „Lernpfad“ mit hoher Detailgenauigkeit aufzuzeichnen, das Erlernte in den passenden Kontext zu setzten und all diese Daten an einem Ort verfügbar zu machen.
 				</div>
 				<div class="col-md-6">
 					<img src="images/sad-smile.svg" height="300" class="smile center-block">
@@ -86,7 +103,7 @@
 			<div class="container">
 				<div class="col-md-6">
 					<h4>Unsere Mission</h4>
-					Das Bildungssystem stammt aus einer Zeit in der es weder das Internet, noch dessen Grundsätze, wie Offenheit, Gleichbehandlung und Transparenz, gab und ist deshalb nicht mehr zeitgemäß. Wir möchten eben diese Grundsätze zum Vorteil der SchülerInnen nutzen.
+					Das Bildungssystem stammt aus einer Zeit in der es weder das Internet, noch dessen Grundsätze, wie Offenheit, Gleichbehandlung und Transparenz, gab. Wir möchten eben diese Grundsätze zum Vorteil der SchülerInnen nutzen.
 					Besser wäre es, den kompletten „Lernpfad“ mit hoher Detailgenauigkeit aufzuzeichnen, das erlernte in den passenden Kontext zu setzten und all diese Daten an einem Ort verfügbar zu machen.
 					An diesem Punkt möchte EdgeBadge ansetzen. Wir wollen eine Applikation zu Verfügung stellen, mit deren Hilfe LehrerInnen und SchülerInnen dieses neuartige Badge-System verwenden können. Gemeinsam mit der Badge Alliance und Mozilla OpenBadges beteiligen wir uns an einem zukunftsorientierten und innovativen Bildungswesen.
 				</div>
